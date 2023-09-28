@@ -1,1 +1,7 @@
 # Moving-Mouse-using-eye-movements
+
+**Mediapipe** is a cross-platform library developed by Google that provides amazing ready-to-use ML solutions for computer vision tasks. OpenCV library in python is a computer vision library that is widely used for image analysis, image processing, detection, recognition, etc.<br><br>
+
+**PyAutoGUI** is essentially a Python package that works across Windows, MacOS X and Linux which provides the ability to simulate mouse cursor moves and clicks as well as keyboard button presses. You can find more information about the package on their homepage, including the quick overview shown below: import pyautogui.
+
+In this project the modules used are **OpenCV, MediaPipe, and PyAutoGUI**, to create a **simple eye-controlled mouse system**.<br> It continuously **captures frames from the computer's camera**, processes them to detect facial landmarks using **MediaPipe's FaceMesh model**, and interprets specific eye movements to simulate mouse clicks on the screen.<br> The program initializes the camera and sets up the necessary modules. It **tracks the vertical position of the user's left eye landmarks and, upon detecting a specific downward movement, triggers a left mouse click action**.<br> The code also visually annotates the detected facial landmarks and eye movements in the displayed camera feed.<br> The 'q' key can be used to exit the program gracefully.<br> This code provides a **basic example of eye-controlled interaction with a computer interface.**
